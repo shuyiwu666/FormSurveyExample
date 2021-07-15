@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+
+ .animeform{
+  border:solid;
+  padding:10px;
+  position:fixed;
+  
+ 
+  
+  
+  
+  }
+   */
+  
+  button{
+  color:blue;
+  margin-left:300px;
+  
+  }
+  
+  /*.bform{
+  border:solid;
+  }  */
+  
+h1{text-align:center;
+}  
+  
+</style>
+<head>
+<title>Survey Form</title>
+</head>
+<body>
+ 
+<div class="bform">
+<div class="animeform">
+<form>
+
+<h1> Anime Servey</h1>
+
+ <br>
+ First Name:<br>
+ <input type="text" ><br><br>
+ 
+  
+ Last Name:<br>
+ <input type="text" ><br><br>
+
+Date of Birth: <br>
+<input type="date" id="birthday"><br><br>
+
+
+<label for="Gender">Gender:</label>  
+<select id="Gender" name="Gender">   
+<option value="Male">Male</option>  
+<option value="Female">Female</option>  
+<option value="Donotwishtoanswer">Don't wish to answer</option>
+</select><br> <br>
+
+
+1. Which Anime do you Watch? <br>
+<input type="checkbox">One Piece<br>
+<input type="checkbox">Naruto<br>
+<input type="checkbox">Fairy Tail<br>
+<input type="checkbox">Mob Psycho<br>
+<input type="checkbox">One Punch Man<br>
+<input type="checkbox">Bleach<br>
+<input type="checkbox">Hunter X Hunter<br>
+<input type="checkbox">Death Note<br>
+<input type="checkbox">Hitman Reborn
+<input type="checkbox">Dragon Ball <br>
+<input type="checkbox">Fullmetal Alchemist<br>
+<input type="checkbox">Berserk<br>
+<input type="checkbox">Final Fintasy<br>
+<input type="checkbox">Grave of the Fireflies<br> 
+<input type="checkbox">Attack on Titan<br>
+Other (please specify) <br>
+<input type="text" ><br><br>
+
+2.Do you watch your Anime Dubbed or Subtitled?<br>
+<input type="checkbox">Subtitled<br>
+<input type="checkbox">Dubbed<br>
+<input type="checkbox">Both<br> 
+<input type="checkbox">I understand the language<br><br>
+
+ 
+<input type="radio" id="Yes" name="Option" value="Yes">
+<label for="Yes">Yes</label>
+<input type="radio"id="No" name="Option" value="No" >
+<label for="No">No</label><br>
+ <br>
+If Yes,please leave your contact below <br>
+<input type="tel" id="phone" name="phone" placeholder="+(Area Code)-(12345)" ><br><br>
+
+4.As an Anime fan, what other interests do you have?<br>
+<input type="radio" id="Personal/Enjoyment" name="anime" value="Personal_ENjoyment">
+<label for="Personal/Enjoyment">Personal Enjoyment</label><br>
+ 
+<input type="radio" id="Story" name="anime" value="Story">
+<label for="Story"> Story</label><br>
+  
+<input type="radio" id="Music" name="anime" value="Music">
+<label for="Music"> Music</label><br>
+
+<input type="radio" id="Characters" name="anime" value="Characters">
+<label for="Characters"> Characters</label><br>
+
+<input type="radio" id="Art/Animation" name="anime" value="Art/Animation"> 	  
+<label for="Art/Animation"> Art/Animation</label><br>
+
+<input type="radio" id="Other" name="anime" value="Other">
+<label for="Other"> Other (please specify) </label><br>
+Other (please specify) <br>
+<input type="text" ><br><br>
+5. As an Anime fan, what other interests do you have?<br>
+<input type="checkbox">Music<br>
+<input type="checkbox">Art<br>
+<input type="checkbox">Writing<br>
+<input type="checkbox">Manga<br>
+<input type="checkbox">Gaming<br><br>
+
+6.Who's your favorite Anime character? <br>
+
+<textarea rows="5" cols="50" name="comment" form="usrform">
+ 
+ </textarea> <br>
+
+
+7.Would you like to leave your contact number below to get a chance to win Plane Ticket to Tokyo? <br><br>
+If Yes,please leave your contact below <br>
+<input type="tel" id="phone" name="phone" placeholder="+(Area Code)-(12345)"><br> 
+<br>E-mail Address:  <br>
+<input type="text" ><br> <br>
+
+ <button>Submit</button>
+
+</form>
+ 
+</div>
+</div>
+
+
+</body>
+</html>
